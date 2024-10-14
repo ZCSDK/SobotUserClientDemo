@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "智齿客户端"
+    },
+    {
+      "name": "sobot_album_permission_yongtu",
+      "value": "正在申请您的照片和视频访问及使用权限。允许后，在咨询客服和留言时可发送照片和视频"
+    },
+    {
+      "name": "sobot_please_open_album",
+      "value": "请求使用相册权限"
+    },
+    {
+      "name": "sobot_use_album",
+      "value": "用于访问及使用此设备上的照片和视频"
+    },
+    {
+      "name": "sobot_camera_permission_yongtu",
+      "value": "正在申请您的相机使用权限。允许后，在咨询客服和留言时可拍照和录制视频进行上传"
+    },
+    {
+      "name": "sobot_microphone_permission_yongtu",
+      "value": "正在申请您的麦克风使用权限。允许后，在咨询客服时可发送语音消息"
+    }
+  ]
+}

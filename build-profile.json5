@@ -1,0 +1,49 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\T480\\.ohos\\config\\default_SobotUserClientDemo_VT9IPeyyeAE_pnOPOZT9Txa2WtPu7Uw1zfWWdagt4KI=.cer",
+          "storePassword": "0000001BD58AA42C0A3BBFD5E9C17905F3AC195EC0CD3C5BC8273F5A7184B8F3E58203D3433EE99D89A457",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B7E9291B4FD112FDCC7635F78A095B06D719F04B189E951A28B7B47F46CAF3AD54CA9394A45A866",
+          "profile": "C:\\Users\\T480\\.ohos\\config\\default_SobotUserClientDemo_VT9IPeyyeAE_pnOPOZT9Txa2WtPu7Uw1zfWWdagt4KI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\T480\\.ohos\\config\\default_SobotUserClientDemo_VT9IPeyyeAE_pnOPOZT9Txa2WtPu7Uw1zfWWdagt4KI=.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

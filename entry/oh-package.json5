@@ -1,0 +1,15 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "智齿客户SDK测试Demo.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@sobot/sobot_common": "^1.0.1",
+    "@sobot/chat_core": "^1.0.1",
+    "@sobot/chat_client": "^1.0.0"
+  },
+  "devDependencies": {},
+  "dynamicDependencies": {}
+}

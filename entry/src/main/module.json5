@@ -1,0 +1,60 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:app_icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+        //网络
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "$string:sobot_microphone_permission_yongtu",
+        "usedScene": {
+          "when": "inuse"
+        }
+        //麦克风
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+        //允许应用获取数据网络信息。
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_INFO"
+        //允许应用获取Wi-Fi信息。
+      }
+    ]
+  }
+}
